@@ -8,7 +8,7 @@ Using Miniforge:
 ```
 conda create --name mnist-pytorch python=3.8
 conda activate mnist-pytorch
-conda install jupyter matplotlib tqdm
+conda install jupyter matplotlib tqdm scikit-learn
 python -m pip install seaborn
 python -m pip install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
 ```
